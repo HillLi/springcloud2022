@@ -1,4 +1,4 @@
-package com.jialin.practice.cloud.payment.entities;
+package com.jialin.practice.cloud.common.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
