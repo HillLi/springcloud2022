@@ -11,6 +11,12 @@
     <artifactId>cloud-consumer-order80</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.jialin.practice</groupId>
             <artifactId>cloud-api-common</artifactId>

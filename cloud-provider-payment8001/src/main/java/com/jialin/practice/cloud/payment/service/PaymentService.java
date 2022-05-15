@@ -1,6 +1,7 @@
 package com.jialin.practice.cloud.payment.service;
 
-import com.jialin.practice.cloud.payment.entities.Payment;
+
+import com.jialin.practice.cloud.common.entities.Payment;
 
 public interface PaymentService {
 

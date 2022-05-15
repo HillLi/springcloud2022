@@ -1,6 +1,6 @@
 package com.jialin.practice.cloud.payment.service.impl;
 
-import com.jialin.practice.cloud.payment.entities.Payment;
+import com.jialin.practice.cloud.common.entities.Payment;
 import com.jialin.practice.cloud.payment.mapper.PaymentMapper;
 import com.jialin.practice.cloud.payment.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;

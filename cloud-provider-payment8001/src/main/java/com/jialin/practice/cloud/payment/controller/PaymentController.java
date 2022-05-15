@@ -1,7 +1,7 @@
 package com.jialin.practice.cloud.payment.controller;
 
-import com.jialin.practice.cloud.payment.entities.CommonResult;
-import com.jialin.practice.cloud.payment.entities.Payment;
+import com.jialin.practice.cloud.common.entities.CommonResult;
+import com.jialin.practice.cloud.common.entities.Payment;
 import com.jialin.practice.cloud.payment.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

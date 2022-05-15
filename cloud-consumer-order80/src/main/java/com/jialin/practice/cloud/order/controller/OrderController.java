@@ -1,7 +1,7 @@
 package com.jialin.practice.cloud.order.controller;
 
-import com.jialin.practice.cloud.order.entities.CommonResult;
-import com.jialin.practice.cloud.order.entities.Payment;
+import com.jialin.practice.cloud.common.entities.CommonResult;
+import com.jialin.practice.cloud.common.entities.Payment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
