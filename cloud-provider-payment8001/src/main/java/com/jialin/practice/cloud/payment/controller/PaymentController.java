@@ -6,7 +6,7 @@ import com.jialin.practice.cloud.payment.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@RestController()
+@RestController
 @RequestMapping("/payment")
 public class PaymentController {
 

@@ -1,13 +1,10 @@
-package com.jialin.practice.cloud.payment.entities;
+package com.jialin.practice.cloud.order.entities;
 
 public class CommonResult<T> {
 
     private Integer code;
     private String message;
     private T data;
-
-    public CommonResult() {
-    }
 
     public CommonResult(Integer code, String message) {
         this(code, message, null);
@@ -17,6 +14,9 @@ public class CommonResult<T> {
         this.code = code;
         this.message = message;
         this.data = data;
+    }
+
+    public CommonResult() {
     }
 
     public static <T> CommonResult SUCCESS() {
