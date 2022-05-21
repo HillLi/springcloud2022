@@ -13,9 +13,9 @@ public class PaymentController {
 
     @Autowired
     private PaymentService paymentService;
-
     @Value("${server.port}")
     private String serverPort;
+
 
     @PostMapping("/save")
     public CommonResult save(@RequestBody Payment payment) {
