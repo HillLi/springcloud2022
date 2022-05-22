@@ -19,7 +19,7 @@ public class PaymentController {
     @Value("${server.port}")
     private String serverPort;
 
-    @GetMapping("zk/info")
+    @GetMapping("/zk/info")
     public CommonResult queryInfo() {
         return CommonResult.SUCCESS("QUEYR ZOOKEEPER INFO SUCCESS," + UUID.randomUUID().toString());
     }
